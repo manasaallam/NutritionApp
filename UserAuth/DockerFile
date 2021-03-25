@@ -1,0 +1,10 @@
+From openjdk
+WorkDIR /usr/src
+ENV MYSQL_HOST=localhost
+ENV MYSQL_DATABASE=user_records
+ENV MYSQL_USER=user
+ENV MYSQL_PASSWORD=root
+
+COPY ./target/UserAuth-0.0.1-SNAPSHOT.jar UserAuth-0.0.1-SNAPSHOT.jar
+#EXPOSE 8090
+ENTRYPOINT ["java","-jar","/usr/src/UserAuth-0.0.1-SNAPSHOT.jar"]

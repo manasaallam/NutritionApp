@@ -1,0 +1,15 @@
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/controller/UserController.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/repository/RecommendationRepository.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/model/User.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/exception/UserNotFoundException.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/service/FavouriteService.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/controller/RecommendationController.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/UserApplication.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/repository/UserRepository.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/exception/UserExistsException.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/repository/FoodRepository.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/model/Food.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/exception/FavoriteAlreadyExistsException.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/controller/FavouriteController.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/model/Recommendation.java
+/home/ubuntu/Desktop/backend/NutritionApp/User/src/main/java/com/example/demo/service/RecommendationService.java

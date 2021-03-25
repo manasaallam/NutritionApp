@@ -38,9 +38,7 @@ public class User{
 	             inverseJoinColumns = {@JoinColumn(name = "fdcId",referencedColumnName = "fdcId")})
 	private Set<Food> favorites=new HashSet<>();
 
-	@JsonIgnore
-	@OneToMany(fetch = FetchType.LAZY,cascade = CascadeType.PERSIST)
-	private Set<Meal> meals=new HashSet<>();
+	
 
 	@JsonIgnore
 	@ManyToMany(mappedBy = "users",fetch = FetchType.LAZY)
@@ -81,9 +79,6 @@ public class User{
 		this.favorites.add(food);
 	}
 
-	public void addMeal(Meal meal){
-		this.meals.add(meal);
-	}
 
 	public String getUsername() {
 		return username;
@@ -117,13 +112,6 @@ public class User{
 		this.password = password;
 	}
 
-	public Set<Meal> getMeals() {
-		return meals;
-	}
-
-	public void setMeals(Set<Meal> meals) {
-		this.meals = meals;
-	}
 
 	public List<Recommendation> getRecommendations() {
 		return recommendations;

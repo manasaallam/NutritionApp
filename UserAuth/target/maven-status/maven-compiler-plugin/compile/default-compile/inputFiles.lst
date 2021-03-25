@@ -1,0 +1,10 @@
+/home/ubuntu/Desktop/backend/NutritionApp/UserAuth/src/main/java/com/example/demo/repository/UserRepository.java
+/home/ubuntu/Desktop/backend/NutritionApp/UserAuth/src/main/java/com/example/demo/jwtfilter/AuthFilter.java
+/home/ubuntu/Desktop/backend/NutritionApp/UserAuth/src/main/java/com/example/demo/model/User.java
+/home/ubuntu/Desktop/backend/NutritionApp/UserAuth/src/main/java/com/example/demo/exception/UserExistsException.java
+/home/ubuntu/Desktop/backend/NutritionApp/UserAuth/src/main/java/com/example/demo/exception/UserNotFoundException.java
+/home/ubuntu/Desktop/backend/NutritionApp/UserAuth/src/main/java/com/example/demo/UserAuthApplication.java
+/home/ubuntu/Desktop/backend/NutritionApp/UserAuth/src/main/java/com/example/demo/controller/UserAuthenticationController.java
+/home/ubuntu/Desktop/backend/NutritionApp/UserAuth/src/main/java/com/example/demo/service/UserService.java
+/home/ubuntu/Desktop/backend/NutritionApp/UserAuth/src/main/java/com/example/demo/model/Food.java
+/home/ubuntu/Desktop/backend/NutritionApp/UserAuth/src/main/java/com/example/demo/model/Recommendation.java

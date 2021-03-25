@@ -1,0 +1,52 @@
+version: '3'
+services:
+#   container for mysql
+  databasemysql:
+    image: mysql:8.0.17
+    restart: always
+    ports:
+      - "3306:3306"
+    container_name: mysql-doc
+    network_mode: host
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: user
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: user_records
+
+#   container for User service
+  userservice:
+      build:
+        dockerfile: DockerFile
+        context:  ./User
+      container_name: User-docker
+      network_mode: host
+      restart: always
+      ports:
+       - "8086:8086"
+      depends_on:
+        - databasemysql
+        
+#   container for UserAuth service
+  userauthservice:
+      build:
+        dockerfile: DockerFile
+        context:  ./UserAuth
+      container_name: UserAuth-docker
+      network_mode: host
+      restart: always
+      ports:
+       - "8090:8090"
+      depends_on:
+        - databasemysql
+
+# container for front end
+  angular-frontend:
+    build:
+       dockerfile: Dockerfile
+       context:  ./nutrition-project-frontend
+    container_name: angular-docker
+    network_mode: host
+    restart: always
+    ports:
+       - "4200:4200"

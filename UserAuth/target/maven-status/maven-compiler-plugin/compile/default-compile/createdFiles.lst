@@ -1,0 +1,10 @@
+com/example/demo/repository/UserRepository.class
+com/example/demo/jwtfilter/AuthFilter.class
+com/example/demo/model/Food.class
+com/example/demo/model/User.class
+com/example/demo/exception/UserExistsException.class
+com/example/demo/service/UserService.class
+com/example/demo/model/Recommendation.class
+com/example/demo/UserAuthApplication.class
+com/example/demo/exception/UserNotFoundException.class
+com/example/demo/controller/UserAuthenticationController.class
